@@ -1,9 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import copyIcon from '../../assets/svgs/copy-icon.svg';
 
 const ContactSection = () => {
+  const [isCopied, setIsCopied] = useState(false);
+  const [showCopiedAlert, setShowCopiedAlert] = useState(false);
+
+  const copyEmail = async () => {
+    if (isCopied) return;
+
+    try {
+      await navigator.clipboard.writeText('omaiduothniel@gmail.com');
+      setIsCopied(true);
+      setShowCopiedAlert(true);
+
+      setTimeout(() => {
+        setIsCopied(false);
+        setShowCopiedAlert(false);
+      }, 1000);
+    } catch (error) {
+      console.error('Error copying email:', error);
+    }
+  };
+
   return (
     <section className="w-full bg-gray py-16 md:py-20 2xl:py-24">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 md:gap-12 md:px-8">
@@ -30,9 +50,14 @@ const ContactSection = () => {
               <h2 className="text-lg md:text-4xl font-semibold tracking-[-0.02em] text-gray-900">
                 omaiduothniel@gmail.com
               </h2>
-              <button className="relative flex justify-center items-center hover:bg-gray-100 active:bg-gray-200 rounded-lg p-1.5 transition-colors duration-200 [&_svg]:stroke-gray-600 [&_svg]:hover:stroke-gray-700 [&_svg]:w-8 [&_svg]:h-8">
+
+              <button
+                onClick={copyEmail}
+                className="relative flex justify-center items-center hover:bg-gray-100 active:bg-gray-200 rounded-lg p-1.5 transition-colors duration-200 [&_svg]:stroke-gray-600 [&_svg]:hover:stroke-gray-700 [&_svg]:w-8 [&_svg]:h-8"
+              >
                 <img src={copyIcon} alt="copy" className="lucide lucide-copy" />
               </button>
+              {showCopiedAlert && <p className="text-green-500">Copied!</p>}
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import country from '../assets/projects/country-info.png';
 
 export const ProjectDetails = [
   {
+    id: 0,
     name: 'Imovies',
     description:
       'Imovies is a webapp that allows users to see a list of movies and also like and comment on movies of their choice. It pulls the moives from the tvmaze api.',
@@ -13,6 +14,7 @@ export const ProjectDetails = [
     stacks: ['javascript', 'webpack', 'css', 'html'],
   },
   {
+    id: 1,
     name: 'bookstore',
     description:
       'Book store is an app (desktop view only) built with react, that uses Redux and gives the users the ability to add and delete books and also gives users the ability to select the category to which they want to place the books. I used the project to practice using redux and react.',
@@ -21,6 +23,7 @@ export const ProjectDetails = [
     stacks: ['react', 'redux', 'css', 'html'],
   },
   {
+    id: 2,
     name: 'Manage Landing Page',
     description:
       'This is a solution to the Manage landing page challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.',
@@ -29,6 +32,7 @@ export const ProjectDetails = [
     stacks: ['javascript', 'tailwind css', 'html'],
   },
   {
+    id: 3,
     name: 'Country Info',
     description:
       'Country Details is an app built with react, the uses redux to fetch the details of countries from an API then displays them for users to have access to.',
