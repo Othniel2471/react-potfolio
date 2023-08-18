@@ -10,7 +10,10 @@ import pic from '../../assets/svgs/coding-illustration.svg';
 
 const HeroSection = () => {
   return (
-    <section className="w-full bg-gray py-16 md:py-20 2xl:py-24">
+    <section
+      className="w-full bg-gray py-16 md:py-20 2xl:py-24"
+      id="hero-section"
+    >
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 md:gap-12 md:px-8">
         <div className="flex flex-col gap-12 md:flex-row">
           <div className="flex items-center justify-center md:order-last md:flex-grow md:justify-end">
@@ -23,11 +26,12 @@ const HeroSection = () => {
                 <span className="inline-block">👋</span>
               </h1>
               <p className="text-normal text-base">
-                I'm a frontend developer specializing in React.js, dedicated to
-                crafting extraordinary digital experiences that are speedy,
-                user-friendly, visually captivating, and adaptable. With roughly
-                2 years of experience in building web applications, I maintain
-                the same enthusiasm as if I were just starting out.
+                Hey there! I'm a frontend developer who's all about React.js. My
+                passion lies in creating top-notch digital experiences that are
+                fast, user-friendly, visually stunning, and adaptable. With
+                around 2 years of experience in building web applications, my
+                enthusiasm is as strong as ever. Let's keep rocking the coding
+                world together 🚀💻
               </p>
             </div>
             <div className="flex flex-col gap-2">

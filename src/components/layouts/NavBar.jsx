@@ -7,12 +7,13 @@ import {
   faXmark,
 } from '@fortawesome/free-solid-svg-icons';
 import Button from '../general/Button';
+import { HashLink } from 'react-router-hash-link';
 
 const NavBar = () => {
   let links = [
-    { linkName: 'about', link: '/' },
-    { linkName: 'work', link: '/' },
-    { linkName: 'contact', link: '/' },
+    { linkName: 'about', link: '#about' },
+    { linkName: 'work', link: '#work' },
+    { linkName: 'contact', link: '#contact' },
   ];
 
   let [showMenu, setShowMenu] = useState(false);
@@ -30,8 +31,9 @@ const NavBar = () => {
     <nav className="sticky top-0 z-30 w-full border-b border-transparent max-md:border-gray-100 bg-gray/50 backdrop-blur-xl md:border-gray-100">
       <div className="mx-auto flex flex-col md:flex-row w-full max-w-7xl md:items-center justify-between p-4 md:px-8">
         <div>
-          <a
-            href="_self"
+          <HashLink
+            smooth
+            to="#hero-section"
             className="text-2xl md:text-3xl text-gray-900 font-bold"
           >
             <span>
@@ -42,7 +44,7 @@ const NavBar = () => {
               /
               <FontAwesomeIcon icon={faChevronRight} />
             </span>
-          </a>
+          </HashLink>
         </div>
         <div
           onClick={toggleMenu}
@@ -64,12 +66,13 @@ const NavBar = () => {
           {links.map((link) => {
             return (
               <li key={link.linkName} className="md:my-0 my-7 ">
-                <a
-                  href={link.link}
+                <HashLink
+                  smooth
+                  to={link.link}
                   className="text-base font-medium text-gray-600 transition-all hover:text-gray-900 active:text-gray-600"
                 >
                   {link.linkName}
-                </a>
+                </HashLink>
               </li>
             );
           })}

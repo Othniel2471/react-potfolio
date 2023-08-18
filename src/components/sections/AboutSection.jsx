@@ -3,7 +3,7 @@ import profile from '../../assets/svgs/about.svg';
 
 const AboutSection = () => {
   return (
-    <section className="w-full py-16 md:py-20 2xl:py-24 bg-gray-50">
+    <section className="w-full py-16 md:py-20 2xl:py-24 bg-gray-50" id="about">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 md:gap-12 md:px-8">
         <div className="self-center">
           <div className="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
@@ -27,11 +27,9 @@ const AboutSection = () => {
               Curious about me? Here's the scoop:
             </h3>
             <p className="text-normal text-base">
-              Hello, I'm Othniel, a full-stack developer student at Microverse,
-              a remote software development program that uses pair programming
-              and project building to teach development. I've gained experience
-              in remote work, pair programming, and building exciting projects,
-              including my portfolio website.
+              Hello, I'm Othniel, a Frontend developer. I'm a passionate and
+              self-motivated developer who loves to build beautiful and
+              responsive web applications.
             </p>
             <p className="text-normal text-base">
               I began my journey as a web developer in 2022, and since then,
