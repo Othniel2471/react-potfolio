@@ -35,7 +35,7 @@ const AboutSection = () => {
               I began my journey as a web developer in 2022, and since then,
               I've continued to grow and evolve as a developer, taking on new
               challenges and learning the latest technologies along the way.
-              Now.I'm build cutting-edge web applications using modern
+              Now. I build cutting-edge web applications using modern
               technologies such as React.js, Vanilla JavaScript, Vue.js,
               Tailwindcss, and much more.
             </p>
