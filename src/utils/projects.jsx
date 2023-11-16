@@ -14,7 +14,14 @@ export const ProjectDetails = [
     image: driveasy,
     link: 'https://driveasy.vercel.app/',
     git: 'https://github.com/batoolfatima2135/Driveasy',
-    stacks: ['ruby on rails', 'react', 'redux', 'tailwindCss', 'html'],
+    stacks: [
+      'ruby on rails',
+      'react',
+      'redux',
+      'tailwindCss',
+      'html',
+      'pair programming',
+    ],
   },
   {
     id: 1,
