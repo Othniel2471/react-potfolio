@@ -10,7 +10,7 @@ export const ProjectDetails = [
     id: 0,
     name: 'Driveasy',
     description:
-      'Imovies is a webapp that allows users to see a list of movies and also like and comment on movies of their choice. It pulls the moives from the tvmaze api.',
+      'Driveasy: An app for adding and managing your cars, booking vehicles, and accessing detailed car information with ease',
     image: driveasy,
     link: 'https://driveasy.vercel.app/',
     stacks: ['ruby on rails', 'react', 'redux', 'tailwindCss', 'html'],

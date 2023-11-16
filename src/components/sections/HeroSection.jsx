@@ -26,9 +26,9 @@ const HeroSection = () => {
                 <span className="inline-block">👋</span>
               </h1>
               <p className="text-normal text-base">
-                Hey there! I'm a frontend developer who's all about React.js. My
-                passion lies in creating top-notch digital experiences that are
-                fast, user-friendly, visually stunning, and adaptable. With
+                Hey there! I'm a Fullstack developer who's all about React.js.
+                My passion lies in creating top-notch digital experiences that
+                are fast, user-friendly, visually stunning, and adaptable. With
                 around 2 years of experience in building web applications, my
                 enthusiasm is as strong as ever. Let's keep rocking the coding
                 world together 🚀💻
