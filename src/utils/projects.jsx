@@ -3,6 +3,7 @@ import bookStore from '../assets/projects/bookstore.png';
 import manage from '../assets/projects/manage.png';
 import country from '../assets/projects/country-info.png';
 import driveasy from '../assets/projects/home.PNG';
+import budgetify from '../assets/projects/budgetify.PNG';
 
 export const ProjectDetails = [
   {
@@ -12,7 +13,7 @@ export const ProjectDetails = [
       'Imovies is a webapp that allows users to see a list of movies and also like and comment on movies of their choice. It pulls the moives from the tvmaze api.',
     image: driveasy,
     link: 'https://driveasy.vercel.app/',
-    stacks: ['Ruby on Rails', 'React', 'Redux', 'TailwindCss', 'html'],
+    stacks: ['ruby on rails', 'react', 'redux', 'tailwindCss', 'html'],
   },
   {
     id: 1,
@@ -49,5 +50,14 @@ export const ProjectDetails = [
     image: country,
     link: 'https://countryinfo-3kif.onrender.com/',
     stacks: ['react', 'redux', 'css', 'html'],
+  },
+  {
+    id: 5,
+    name: 'Budgetify',
+    description:
+      'The budget application is a rails-based app that enables users to input different categories and track their expenses within each category. It provides users with the functionality to monitor their spending on specific items.',
+    image: budgetify,
+    link: 'https://budget-app-u9ai.onrender.com/',
+    stacks: ['ruby on rails', 'rspec-rails', 'css', 'html'],
   },
 ];
