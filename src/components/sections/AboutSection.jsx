@@ -27,7 +27,7 @@ const AboutSection = () => {
               Curious about me? Here's the scoop:
             </h3>
             <p className="text-normal text-base">
-              Hello, I'm Othniel, a Frontend developer. I'm a passionate and
+              Hello, I'm Othniel, a Fullstack developer. I'm a passionate and
               self-motivated developer who loves to build beautiful and
               responsive web applications.
             </p>
