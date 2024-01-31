@@ -24,7 +24,7 @@ const NavBar = () => {
 
   const downloadCV = () => {
     console.log('download cv');
-    window.open('/cv/othniel-cv.pdf', '_blank');
+    window.open('/cv/othniel_omaidu.pdf', '_blank');
   };
 
   return (

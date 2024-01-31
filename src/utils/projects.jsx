@@ -4,24 +4,18 @@ import manage from '../assets/projects/manage.png';
 import country from '../assets/projects/country-info.png';
 import driveasy from '../assets/projects/home.PNG';
 import budgetify from '../assets/projects/budgetify.PNG';
+import trello from '../assets/projects/trello.png';
 
 export const ProjectDetails = [
   {
     id: 0,
-    name: 'Driveasy',
+    name: 'Trello Clone',
     description:
-      'Driveasy: An app for adding and managing your cars, booking vehicles, and accessing detailed car information with ease',
-    image: driveasy,
-    link: 'https://driveasy.vercel.app/',
-    git: 'https://github.com/batoolfatima2135/Driveasy',
-    stacks: [
-      'ruby on rails',
-      'react',
-      'redux',
-      'tailwindCss',
-      'html',
-      'pair programming',
-    ],
+      'A Trello clone app, that creates a new task and allows users to re order tasks with drag and drop and also stores data in the local storage. This was a take home assignment for a frontend role',
+    image: trello,
+    link: 'https://feassignment.onrender.com/',
+    git: 'https://github.com/Othniel2471/trello-clone',
+    stacks: ['react', 'redux', 'material-ui', 'react-beautiful-dnd library'],
   },
   {
     id: 1,
@@ -72,5 +66,22 @@ export const ProjectDetails = [
     link: 'https://budget-app-u9ai.onrender.com/',
     git: 'https://github.com/Othniel2471/budget_app',
     stacks: ['ruby on rails', 'rspec-rails', 'css', 'html'],
+  },
+  {
+    id: 6,
+    name: 'Driveasy',
+    description:
+      'Driveasy: An app for adding and managing your cars, booking vehicles, and accessing detailed car information with ease',
+    image: driveasy,
+    link: 'https://driveasy.vercel.app/',
+    git: 'https://github.com/batoolfatima2135/Driveasy',
+    stacks: [
+      'ruby on rails',
+      'react',
+      'redux',
+      'tailwindCss',
+      'html',
+      'pair programming',
+    ],
   },
 ];
