@@ -11,7 +11,7 @@ export const ProjectDetails = [
     id: 0,
     name: 'Trello Clone',
     description:
-      'A Trello clone app, that creates a new task and allows users to re order tasks with drag and drop and also stores data in the local storage. This was a take home assignment for a frontend role',
+      '(Desktop only)A Trello clone app, that creates a new task and allows users to re order tasks with drag and drop and also stores data in the local storage. This was a take home assignment for a frontend role',
     image: trello,
     link: 'https://feassignment.onrender.com/',
     git: 'https://github.com/Othniel2471/trello-clone',
