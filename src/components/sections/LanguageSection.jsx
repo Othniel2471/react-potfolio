@@ -10,6 +10,8 @@ import redux from '../../assets/svgs/redux.svg';
 import ruby from '../../assets/svgs/ruby.jpg';
 import rails from '../../assets/svgs/rails.jpg';
 import postgres from '../../assets/svgs/postgres.jpg';
+import nextjs from '../../assets/svgs/nextjs.png';
+import typescript from '../../assets/svgs/typescript.png';
 
 const LanguageSection = () => {
   return (
@@ -177,6 +179,38 @@ const LanguageSection = () => {
               </a>
               <p className="text-normal text-base md:text-lg capitalize">
                 postgres
+              </p>
+            </div>
+            <div className="flex flex-col items-center gap-2">
+              <a
+                href="https://www.postgresql.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={nextjs}
+                  alt="postgres"
+                  className="transition-transform duration-300 md:hover:scale-110 w-[64px] h-[64px]"
+                />
+              </a>
+              <p className="text-normal text-base md:text-lg capitalize">
+                Next Js
+              </p>
+            </div>
+            <div className="flex flex-col items-center gap-2">
+              <a
+                href="https://www.postgresql.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={typescript}
+                  alt="postgres"
+                  className="transition-transform duration-300 md:hover:scale-110 w-[64px] h-[64px]"
+                />
+              </a>
+              <p className="text-normal text-base md:text-lg capitalize">
+                TypeScript
               </p>
             </div>
           </div>
