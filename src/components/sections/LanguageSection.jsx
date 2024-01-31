@@ -183,7 +183,7 @@ const LanguageSection = () => {
             </div>
             <div className="flex flex-col items-center gap-2">
               <a
-                href="https://www.postgresql.org/"
+                href="https://nextjs.org/learn"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -199,7 +199,7 @@ const LanguageSection = () => {
             </div>
             <div className="flex flex-col items-center gap-2">
               <a
-                href="https://www.postgresql.org/"
+                href="https://www.typescriptlang.org/"
                 target="_blank"
                 rel="noreferrer"
               >
