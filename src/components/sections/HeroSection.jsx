@@ -93,12 +93,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
-// <i>
-//   <img
-//     width="24"
-//     height="24"
-//     src="../assets/svgs/git.svg"
-//     alt=""
-//   />
-// </i>;
